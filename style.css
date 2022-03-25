@@ -1,0 +1,253 @@
+html, body{
+width: 100%;
+height: 100%;
+font-family: sans-serif;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffff;
+    width: 100%;
+height: 100%;
+}
+
+.container{
+    /* width: 300px; */
+}
+.font-size-14{
+    font-size: 14px;
+}
+.sch-name{
+    font-size: 34px;
+    font-weight: bold;
+}
+.padding-y{
+padding-left: 5px;
+}
+.card-header,.card-footer{
+    
+    background-color: rgb(214, 58, 58);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.clg-name{
+    font-size: 34px;
+    font-weight: bold;
+}
+.clg-cat{
+    font-size: 16px;
+}
+.sch-details{
+    color: rgb(250, 236, 108);
+    text-align: center;
+    font-size: 12px;
+}
+.clg-details{
+    font-size: 10px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.card-body-gird{
+    display: flex;
+}
+.card-body{
+    padding-top:16px ;
+}
+.flx-20{
+    flex: 0 0 20%;
+}
+.flx-30{
+    flex: 0 0 30%;
+}
+.flx-40{
+    flex: 0 0 40%;
+}
+.flx-60{
+    flex: 0 0 60%;
+}
+.image-size{
+    width: 130px;
+    height: 130px;
+    background-image: url("user1.jpg");
+    background-size: 130px;
+    margin: 0px 5px;
+}
+.clg-hostel{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(214, 58, 58);
+    position: relative;
+    color: #fff;
+    padding: 2px 16px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.border-top-radius{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.border-bottom-radius{
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius: 5px;
+}
+
+
+.flex-direction{
+    flex-direction: column;
+    align-items: center;
+}
+.border-clg{
+    background-color: rgb(214, 58, 58);
+    padding: 5px 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+    border-radius: 20px;
+}
+.border-clg>div{
+    transform: rotateZ(270deg);
+}
+.align-self{
+    align-self: center;
+}
+.text-center{
+    text-align: center;
+}
+.align-item{
+    align-items: center;
+}
+.padding-top{
+    padding: 5px 0px;
+}
+.user-name{
+    font-weight: bold;
+}
+.flex-25{
+    flex: 0 0 30%;
+}
+.text-right{
+    text-align: right   ;
+}
+.flex-75{
+    flex: 0 0 75%;
+}
+
+.flex-35{
+    flex: 0 0 35%;
+}
+
+.flex-30{
+    flex: 0 0 30%;
+}
+
+.clg-log{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-image: url('/download.jpeg');
+
+}
+
+.align-item-end{
+align-items: flex-end;
+}
+.font-15px{
+    font-size: 15px;
+}
+.shl_header{
+    background-image: linear-gradient(to left bottom,rgb(6, 106, 199),rgb(97, 177, 251));
+    color: #fff;
+    padding: 5px 10px;
+}
+.image-scn{
+    background-image: url(./gandhi.jpeg);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    display: inline-block;
+    background-size: 50px;
+}
+.blood-image{
+    background-image: url(./blood_drop-512_7194.png);
+    width: 15px;
+    padding: 5px 0px;
+    height: 15px;
+    background-position: center;
+    background-size: 15px;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+
+}
+.sch-image{
+    width: 100px;
+    background-image: url(./WhatsApp\ Image\ 2022-03-24\ at\ 10.28.44\ PM.jpeg);
+    height: 125px;
+    background-size: 100px 125px;
+    border: 2px solid rgb(6, 106, 199);
+}
+.padding-x-axis{
+   padding: 0px 10px; 
+}
+.house-icon{
+    background-image: url('./af7c3b6b523727d1be506ab4c581e9d8.png');
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: 14px;
+    background-position: center;
+}
+.padding-14px{
+padding-left: 14px;
+}
+.mobile-icon{
+    background: url(./5a452601546ddca7e1fcbc87.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: 14px;
+    background-position: center;
+}
+.float-right{
+    float: right;
+}
+.sh-bottom{
+    clear: both;
+    padding: 8px;
+    background: rgb(6, 106, 199);
+}
+.heaven{
+    font-size: 42px;
+    /* color: rgb(116, 214, 129); */
+    color: #fff;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em rgb(29 99 6), 0 0 0.3em rgb(167 114 114);
+    /* transform: rotate(-7deg); */
+    position: relative ;
+}
+.heaven::after{
+    content: '';
+width: 20px;
+height: 200px;
+background-color: #fff;
+position: absolute;
+/* animation: move 5s infinite; */
+}
+
+@keyframes move {
+    0%{
+        /* top:0%; */
+        right: 0%;
+    }
+    100%{
+        /* top:10%; */
+        right: 100%;
+    }
+}
